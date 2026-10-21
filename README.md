@@ -10,7 +10,7 @@ one-click MP4/GIF animation export.
 > https://space.bilibili.com/1136187067
 
 
-> **Powered by BDDM** (Boundary Domain Decomposition Method) — 3-D
+> **Powered by BDDM** (Boundary Displacement Decomposition Method for SIF Determination in Fracture Mechanics) — 3-D
 > stress-intensity factors for **arbitrary structures at analytical speed**:
 > **no FEA, no crack mesh, no re-meshing during crack growth**.
 > Solver & method: [ai-frac-studio](https://gitee.com/SimStudio/ai-frac-studio)
@@ -50,7 +50,6 @@ geometry, C3D20-family renders corner-based.
 | XY plots / path tools | — | ✔ | ✔ |
 | Animation export | ✔ MP4/GIF, orbit + deformation-growth, value-linked | images/video via plug-ins | — |
 | Modern PBR rendering + environment IBL | ✔ | — | — |
-| Draggable, styleable legend | ✔ | fixed | fixed |
 | Python-scriptable, Qt-free parsing core | ✔ (`frd_parser`) | — | — |
 
 ### 1.2 Positioning
@@ -75,7 +74,7 @@ rendering/animation output.
 - **Flexible display** — solid / wireframe / solid+wireframe, continuous or banded contours
 - **Draggable legend** — floating Abaqus-style legend widget, move it anywhere by mouse
 - **Animation export** — MP4 (true color) / GIF; camera orbit + deformation-growth animation, contour values scale with deformation
-- **WYSIWYG capture** — screen-capture mode records exactly what you see
+- **Screen capture output** — screen-capture mode records exactly what you see
 - **Everything configurable** — legend position/fonts/labels, persisted across sessions
 
 ## 3. Quick Start
